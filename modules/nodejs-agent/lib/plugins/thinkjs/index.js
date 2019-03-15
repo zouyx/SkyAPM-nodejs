@@ -15,24 +15,22 @@
  * limitations under the License.
  */
 
-require("skyapm-nodejs").start({
-    serviceName:"aa",
-});
+"use strict";
 
-for (let i = 0; i < 3; i++) {
-    let mysql = require("mysql");
-    let connection = mysql.createConnection({
-        host: "192.168.8.167",
-        port: 3306,
-        user: "devaccount",
-        password: "12345678",
-        database: "mysql",
-    });
+const Plugin = require("../plugin");
 
-    connection.connect();
+module.exports = new Plugin("thinkjs-plugin", "thinkjs", [{
+    _name: "",
+    _description: "",
+    _enhanceModules: ["joe"],
+    canEnhance: function(version, enhanceFile) {
+        if (this._enhanceModules.indexOf(enhanceFile) > -1) {
+            return true;
+        }
+        return false;
+    },
+    getInterceptor: function(enhanceFile) {
+        return require("./" + enhanceFile);
+    },
+}]);
 
-    connection.query("SELECT SLEEP(1)", function(error, results, fields) {
-        if (error) throw error;
-        console.log("success");
-    });
-}

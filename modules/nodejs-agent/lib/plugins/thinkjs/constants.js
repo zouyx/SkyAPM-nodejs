@@ -15,24 +15,6 @@
  * limitations under the License.
  */
 
-require("skyapm-nodejs").start({
-    serviceName:"aa",
-});
+"use strict";
 
-for (let i = 0; i < 3; i++) {
-    let mysql = require("mysql");
-    let connection = mysql.createConnection({
-        host: "192.168.8.167",
-        port: 3306,
-        user: "devaccount",
-        password: "12345678",
-        database: "mysql",
-    });
-
-    connection.connect();
-
-    connection.query("SELECT SLEEP(1)", function(error, results, fields) {
-        if (error) throw error;
-        console.log("success");
-    });
-}
+module.exports.PROPERTY_FIELD = Symbol("property");
