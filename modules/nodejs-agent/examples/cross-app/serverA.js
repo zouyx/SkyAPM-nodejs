@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-require("skyapm-nodejs").start({
+require("skyapm.js").start({
     serviceName: "test",
 });
 

@@ -1,5 +1,5 @@
 {
-  "name": "skyapm-nodejs",
+  "name": "skyapm.js",
   "version": "1.0.0",
   "description": "The Node server instrument SDK for Apache SkyWalking",
   "main": "index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SkyAPM/SkyAPM-nodejs.git"
+    "url": "git+https://github.com/zouyx/skyapm.js.git"
   },
   "keywords": [
     "SkyAPM",
@@ -21,16 +21,16 @@
   ],
   "contributors": [
     {
-      "name": "Xin Zhang",
-      "email": "zhangxin@apache.org",
-      "url": "https://github.com/ascrutae"
+      "name": "yixian.zou",
+      "email": "yixian.zou@gmail.com",
+      "url": "https://github.com/zouyx"
     }
   ],
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/SkyAPM/SkyAPM-nodejs/issues"
+    "url": "https://github.com/zouyx/skyapm.js/issues"
   },
-  "homepage": "https://github.com/SkyAPM/SkyAPM-nodejs#readme",
+  "homepage": "https://github.com/zouyx/skyapm.js#readme",
   "dependencies": {
     "async": "^2.6.1",
     "debug": "^3.1.0",

@@ -15,9 +15,7 @@
  * limitations under the License.
  */
 
-require("skyapm-nodejs").start({
-    serviceName:"aa",
-});
+require("skyapm.js").start();
 
 for (let i = 0; i < 3; i++) {
     let mysql = require("mysql");

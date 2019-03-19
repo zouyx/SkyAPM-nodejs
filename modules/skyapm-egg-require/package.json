@@ -1,5 +1,5 @@
 {
-  "name": "skyapm-egg-require",
+  "name": "skyapm.js-require",
   "version": "0.1.4",
   "description": "The require module that skyapm nodejs agent enhance the egg framework",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SkyAPM/SkyAPM-nodejs.git"
+    "url": "git+https://github.com/zouyx/skyapm.js.git"
   },
   "keywords": [
     "SkyAPM",
@@ -16,19 +16,19 @@
   ],
   "contributors": [
     {
-      "name": "Xin Zhang",
-      "email": "zhangxin@apache.org",
-      "url": "https://github.com/ascrutae"
+      "name": "yixian.zou",
+      "email": "yixian.zou@gmail.com",
+      "url": "https://github.com/zouyx"
     }
   ],
-  "author": "Zhang Xin",
+  "author": "yixian.zou",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/SkyAPM/SkyAPM-nodejs/issues"
+    "url": "https://github.com/zouyx/skyapm.js/issues"
   },
-  "homepage": "https://github.com/SkyAPM/SkyAPM-nodejs#readme",
+  "homepage": "https://github.com/zouyx/skyapm.js#readme",
   "dependencies": {
-    "skyapm-nodejs": "^1.0.0"
+    "skyapm.js": "^1.0.0"
   },
   "devDependencies": {
     "eslint": "^4.19.1",

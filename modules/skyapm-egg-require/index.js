@@ -28,7 +28,7 @@ if (args.hasOwnProperty("sw_direct_Servers")) {
     directServers = args["sw_direct_Servers"];
 }
 
-require("skyapm-nodejs").start({
+require("skyapm.js").start({
     serviceName,
     directServers,
 });
