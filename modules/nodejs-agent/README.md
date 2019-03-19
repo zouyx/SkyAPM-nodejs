@@ -20,5 +20,5 @@ Add some new feature.
 * Submit an issue
 * QQ Group: 392443393
 
- ## License	 ## License
- [Apache 2.0](LICENSE.md)
+## License
+[Apache 2.0](LICENSE.md)
