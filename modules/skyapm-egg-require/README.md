@@ -1,9 +1,9 @@
-# SkyAPM egg require
+# skyapm.js egg require
 
 ## How to use
 1. Install package
 ```
-npm i skyapm-egg-require --save
+npm i skyapm.js-require --save
 
 ```
 2. Add start arguments
