@@ -1,4 +1,4 @@
-# SkyAPM Node.js
+# skyapm.js
 
 <img src="https://skyapmtest.github.io/page-resources/SkyAPM/skyapm.png" alt="Sky Walking logo" height="90px" align="right" />
 
